@@ -281,7 +281,6 @@ decoder_test(["Jgchq Cwjrl", ['1', '2', '2', '5'], 2, alpha0])
 
 
 ##### Eigen Values/Vectors #####
-'''
 def matrix_op(matrix,  line, A, B, factor_A, factor_B=1):
     """
     Matrix operations that involves adding/subtracting from/to a given line by a given factor.
@@ -594,7 +593,7 @@ def matrix_eigen_test():
     print(eigen_vectors)
 
 matrix_eigen_test()
-'''
+
 
 
 ##### QR and LU Decomposition #####
